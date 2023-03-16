@@ -469,6 +469,9 @@
       left: 0;
       right: 0;
     }
+    .location{
+      text-align: center !important;
+    }
   }
   .myservice{
     margin-top: 5em;
@@ -540,6 +543,48 @@
     text-align: center;
     font-weight: 200;
 }
+/*.navbar-nav .nav-item .nav-link::after{
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: 0%;
+  background-color: #1abc9c;
+  transition: .8s ease-in-out;
+  bottom: 0;
+}
+.navbar-nav .nav-item .nav-link:hover::after{
+  width:-100%;
+}
+#navbarResponsive{
+  width: max-content !important;
+}
+.nav-item{
+  display: inline-block !important;
+}
+.nav-link{
+  width: max-content !important;
+}
+.navbar-nav .nav-item .nav-link::before{
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: 0%;
+  background-color: #1abc9c;
+  transition: .8s ease-in-out;
+}
+.navbar-nav .nav-item .nav-link:hover::before{
+  width: 100%;
+}*/
+.location{
+  text-align: start;
+}
+.form-floating .form-control:focus + label, .filled{
+  color: #1abc9c !important;
+}
+.form-floating .form-control:focus::placeholder{
+  opacity: 1 !important;
+  color: #2c3e50 !important;
+}
 @media screen and (min-width:768px) and (max-width:992px){
     .service-card, .front-card, .back-card{
         width: 100%;
@@ -569,6 +614,9 @@
   }
   .Right{
     padding: 0 3em;
+}
+.location{
+  text-align: center !important;
 }
 }
   
